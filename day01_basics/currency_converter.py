@@ -1,10 +1,4 @@
-def convert(amount, rate):
-    return round(amount * rate, 2)
 
-eur = float(input("Zadaj sumu v EUR: "))
-rate = 1.1  # napr. kurz pre USD
-usd = convert(eur, rate)
-print(f"{eur} EUR je približne {usd} USD")
 
 def convert(amount, rate):
     return round(amount * rate, 2)
